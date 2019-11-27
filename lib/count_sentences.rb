@@ -19,7 +19,7 @@ class String
       i = "?" || i = "."
       i.count
     end
-
+      i.count
     #binding.pry
   end
 end
