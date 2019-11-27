@@ -15,7 +15,11 @@ class String
   end
 
   def count_sentences
-    self.split.count
+    self.split.each do |i|
+      i = "?" || i = "."
+      i.count
+    end
+
     #binding.pry
   end
 end
