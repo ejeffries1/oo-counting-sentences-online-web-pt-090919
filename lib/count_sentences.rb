@@ -18,8 +18,7 @@ class String
     self.split.each do |i|
       i = "?" || i = "."
       i.count
-      binding.pry
+      #binding.pry
     end
     #binding.pry
-  end
 end
